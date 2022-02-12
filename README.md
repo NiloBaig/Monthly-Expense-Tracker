@@ -11,16 +11,13 @@ A sample expenses file is attached for reference.
 ## UML
 ### 1. Use case diagram
 ![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Use%20case%20diagram.png)
-
 ### 2. Activity diagram
 ![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Activity%20diagram.png)
-
-### 3.
+### 3. Sequence diagram
 
 ## DDD
 ## Metrics
 [SonarCube](https://sonarcloud.io/project/overview?id=NiloBaig_Monthly-Expense-Tracker) is used to inpect the code quality and security of codebase.
-
   Below are the metrics:
 ![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Sonarcube2.PNG)
 ![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Sonarcube1.PNG)
@@ -47,7 +44,18 @@ To interact with the external data file, with statement is used. It helps in dea
 ## IDE
 The IDE used for developing this application is PyCharm. Below are some of the shortcuts used as they are very handy and quick.
 ![image](https://user-images.githubusercontent.com/99265854/153722374-307776e8-4d11-48ce-9ede-752d23aeb750.png)
+
 There are also some of them that are my favourites while working with Git:
+
 ![image](https://user-images.githubusercontent.com/99265854/153722483-c16bae5e-df5d-4557-9617-8f205ea086c9.png)
 ## DSL
 ## Functional Programming
+### The use of higher-order functions
+The use of len() function is implemented in the code
+![image](https://user-images.githubusercontent.com/99265854/153726830-fc5b9086-27af-4650-920e-5496a538d32e.png)
+### Functions as parameters and return values
+This function takes the start date and the end date as input parameters to show graphical view during that time period
+![image](https://user-images.githubusercontent.com/99265854/153726877-45c01430-3c0e-4ff4-afbd-43029e8d95c2.png)
+### Side effect free functions
+Effect of overlying functions remains locally, hence using them will not have any side effects
+![image](https://user-images.githubusercontent.com/99265854/153726931-c46db30b-3bd1-44f5-ad83-1e487386822f.png)
