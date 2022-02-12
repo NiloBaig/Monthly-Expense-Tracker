@@ -49,7 +49,7 @@ def choices():
 
     return choice
 
-
+invalid="It looks like you don't have enough data yet to visualize."
 def data_insights():
     try:
         with open(expense_sheet, 'r') as file:
@@ -71,7 +71,7 @@ def data_insights():
             percent = (total_expense / income * 100)
             print("Expenditure is {:.4f}%  of income in {} days of this month.\n".format(percent, len(read_list) - 1))
     except Exception as e:
-        print("It looks like you don't have enough data yet to visualize.", e)
+        print(invalid, e)
 
 
 def data_visualization():
@@ -95,7 +95,7 @@ def data_visualization():
             plt.legend()
             plt.show()
     except Exception as e:
-        print("It looks like you don't have enough data yet to visualize.", e)
+        print(invalid, e)
 
 
 def limited_visualization(start_date, end_date):
@@ -126,7 +126,7 @@ def limited_visualization(start_date, end_date):
             plt.legend()
             plt.show()
     except Exception as e:
-        print("It looks like you don't have enough data yet to visualize.", e)
+        print(invalid, e)
 
 
 if __name__ == "__main__":
