@@ -44,8 +44,8 @@ def choices():
 
     try:
         choice = int(input())
-    except:
-        print("!Enter a valid Value..")
+    except Exception as e:
+        print("!Enter a valid Value..", e)
 
     return choice
 
