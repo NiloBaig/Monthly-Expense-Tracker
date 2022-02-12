@@ -1,2 +1,3 @@
 # Monthly-Expense-Tracker
-A Python application to tracks all the expenses throughout the month
+A Python application to tracks all the expenses throughout the month.
+More to follow...
