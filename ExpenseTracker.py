@@ -12,17 +12,17 @@ def add_money():
     income += deposit
     print("Income added: ", income)
 
-
+expense_sheet='data.csv'
 def enter_data():
-    if not os.path.exists('data.csv'):
-        with open('data.csv', 'w', newline="") as file:
+    if not os.path.exists(expense_sheet):
+        with open(expense_sheet, 'w', newline="") as file:
             writer = csv.writer(file)
             writer.writerow(['Date', 'Label', 'Expense'])
 
-    if os.path.exists('data.csv'):
-        read_file_list = list(csv.reader(open('data.csv', 'r')))
+    if os.path.exists(expense_sheet):
+        read_file_list = list(csv.reader(open(expense_sheet, 'r')))
         if len(read_file_list) == 0:
-            with open('data.csv', 'a', newline="") as file:
+            with open(expense_sheet, 'a', newline="") as file:
                 writer = csv.writer(file)
                 writer.writerow(['Date', 'Label', 'Expense'])
 
@@ -30,7 +30,7 @@ def enter_data():
     label = input("Label your Expense: ")
     expense = int(input("Expense amount:"))
 
-    with open("data.csv", 'a', newline="") as file:
+    with open(expense_sheet, 'a', newline="") as file:
         writer = csv.writer(file)
         writer.writerow([date, label, expense])
 
@@ -52,7 +52,7 @@ def choices():
 
 def data_insights():
     try:
-        with open('data.csv', 'r') as file:
+        with open(expense_sheet, 'r') as file:
             read = csv.reader(file)
             read_list = list(read)
             print(read_list)
@@ -76,7 +76,7 @@ def data_insights():
 
 def data_visualization():
     try:
-        with open('data.csv', 'r') as file:
+        with open(expense_sheet, 'r') as file:
             dates = []
             expense = []
             read = csv.reader(file)
@@ -100,7 +100,7 @@ def data_visualization():
 
 def limited_visualization(start_date, end_date):
     try:
-        with open('data.csv', 'r') as file:
+        with open(expense_sheet, 'r') as file:
             dates = []
             expense = []
             read = csv.reader(file)
