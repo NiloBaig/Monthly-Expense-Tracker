@@ -56,6 +56,7 @@ There are also some of them that are my favourites while working with Git:
 ## Functional Programming
 ### The use of higher-order functions
 The use of len() function is implemented in the code
+
 ![image](https://user-images.githubusercontent.com/99265854/153726830-fc5b9086-27af-4650-920e-5496a538d32e.png)
 ### Functions as parameters and return values
 This function takes the start date and the end date as input parameters to show graphical view during that time period
