@@ -19,7 +19,8 @@ A sample expenses file is attached for reference.
 ## DDD
 ## Metrics
 [SonarCube](https://sonarcloud.io/project/overview?id=NiloBaig_Monthly-Expense-Tracker) is used to inspect the code quality and security of codebase.
-  Below are the snippet of metrics:
+It checked for bugs or vulnerabilities in the project, and provided recommendation to resolve the code smells.
+Below are the snippet of metrics:
 ![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Sonarcube2.PNG)
 ![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Sonarcube1.PNG)
 
@@ -46,6 +47,7 @@ It helps in deallocating memory automatically outside of the block.
 To understand build management, Gradle is used to build a simple Java program that says Hello.
 From Installation, to test and continuous delivery, Gradle helped in building the application.
 ![image](https://user-images.githubusercontent.com/99265854/153759666-079d39ca-b246-49d4-88a7-886ae711ef7e.png)
+Reference: https://github.com/NiloBaig/gradle-demo
 
 ## Unit Tests
 Unit test was also performed using Gradle on the same Java program.
@@ -64,7 +66,7 @@ There are also some of them that are my favourites while working with Git:
 ![image](https://user-images.githubusercontent.com/99265854/153722483-c16bae5e-df5d-4557-9617-8f205ea086c9.png)
 
 ## DSL
-Following the snippet of DOmain Specific language written in Groovy. This is used to run the Java application on Gradle.
+Following is the snippet of Domain Specific language written in Groovy. This is used to run the Java application on Gradle.
 ![image](https://user-images.githubusercontent.com/99265854/153759984-15976c0c-0454-41e6-a53d-9a6b07d03123.png)
 
 ## Functional Programming
