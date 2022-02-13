@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.nilo.GradleDemoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-13T13:57:45" hostname="LAPTOP-QI4NEKEC" time="0.008">
-  <properties/>
-  <testcase name="verifyNoExceptionThrown" classname="com.nilo.GradleDemoTest" time="0.008"/>
-  <system-out><![CDATA[Hello! This is Gradle Demo!
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
