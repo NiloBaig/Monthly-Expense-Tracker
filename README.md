@@ -47,7 +47,7 @@ It helps in deallocating memory automatically outside of the block.<br/>
 To understand build management, Gradle is used to build a simple Java program that says Hello.<br/>
 From Installation, to test and continuous delivery, Gradle helped in building the application.<br/>
 ![image](https://user-images.githubusercontent.com/99265854/153759666-079d39ca-b246-49d4-88a7-886ae711ef7e.png)
-Reference: https://github.com/NiloBaig/gradle-demo <br/>
+<br/>Reference: https://github.com/NiloBaig/gradle-demo <br/>
 
 ## Unit Tests
 Unit test was also performed using Gradle on the same Java program.<br/>
