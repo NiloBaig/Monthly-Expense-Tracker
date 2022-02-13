@@ -14,6 +14,7 @@ A sample expenses file is attached for reference.
 ### 2. Activity diagram
 ![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Activity%20diagram.png)
 ### 3. Sequence diagram
+![This is an image](https://github.com/NiloBaig/Monthly-Expense-Tracker/blob/main/Sequence%20diagram.png)
 
 ## DDD
 ## Metrics
